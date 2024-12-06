@@ -1,0 +1,127 @@
+
+body 
+{
+    background-color: #6f4e56;
+    font-family:  'Baloo 2','Patrick Hand', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main 
+{
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1000px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #fff7fa;
+    border: 2px solid #6f4e56;
+}
+
+h1, h2 
+{
+
+    color: #6d4154;
+    text-align: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h1:hover {
+    color: pink;
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+h2:hover {
+    color: pink;
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
+h3 {
+    font-family: 'Verdana', sans-serif;
+    color: pink;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+h4 {
+    color: #6f4e56;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+p, ul, li, b {
+    font-family: 'Arial', sans-serif;
+    color: #6d4154;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+
+b {
+    color: #6f4e56;
+}
+
+.linkstyle {
+    color: pink; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.linkstyle:hover {
+    text-decoration: underline;
+    color: #905163;
+    transform: scale(1.2);
+}
+
+.p5jsworkall {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0;
+}
+
+.p5jswork {
+    width: calc(45% - 20px); 
+    background: #ffebf5;
+    border: 1px solid #ffdae7;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+    color: #6d4154;
+}
+
+.p5jswork:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.p5jswork iframe {
+    border-radius: 10px 10px 10px 10px;
+    width: 600px;
+    height: 400px;
+}
+
+.p5jswork br {
+    margin-bottom: 10px;
+    display: block;
+}
