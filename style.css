@@ -1,14 +1,14 @@
 
-body 
-{
-    background-color: #6f4e56;
-    font-family:  'Baloo 2','Patrick Hand', 'Arial', sans-serif;
+body {
+    font-family: 'Baloo 2', 'Patrick Hand', 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background: linear-gradient(120deg, #6f4e56, #cc9684, #c9b2c4, #ffd6da);
+    background-size: 300% 300%;
+    animation: gradientMove 12s infinite alternate;
 }
 
-main 
-{
+main {
     margin: 20px auto;
     padding: 20px;
     max-width: 1000px;
@@ -18,78 +18,77 @@ main
     border: 2px solid #6f4e56;
 }
 
-h1, h2 
-{
 
+h1, h2 {
     color: #6d4154;
     text-align: center;
 }
 
-h1{
+h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
 }
 
 h1:hover {
     color: pink;
     transform: scale(1.2);
-    transition: all 0.3s ease-in-out;
 }
 
 h2 {
     font-size: 1.8rem;
     margin-top: 10px;
 }
+
 h2:hover {
     color: pink;
     transform: scale(1.2);
     transition: all 0.3s ease-in-out;
 }
 
+
 h3 {
     font-family: 'Verdana', sans-serif;
-    color: pink;
     text-align: center;
-    font-size: 1.2rem;
+    color: pink;
+    font-weight: bold;
+    font-size: 1.3rem;
     margin: 20px 0;
-}
-h4 {
-    color: #6f4e56;
-    font-size: 1.2rem;
-    margin: 20px 0;
+    animation: bounce 2s ease-in-out infinite alternate;
 }
 
-p, ul, li, b {
-    font-family: 'Arial', sans-serif;
-    color: #6d4154;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
-ul {
-    list-style-type: circle;
-    margin-left: 20px;
-}
-
-
-b {
-    color: #6f4e56;
-}
 
 .linkstyle {
-    color: pink; 
+    color: pink;
     text-decoration: none;
     font-weight: bold;
     font-size: 1rem;
+    margin-left: 40px;
+    text-align:left;
+    display: block;
+
+    transition: transform 0.3s ease-in-out;
 }
 
 .linkstyle:hover {
     text-decoration: underline;
     color: #905163;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
+/* ====== P5JS ====== */
 .p5jsworkall {
     display: flex;
     flex-wrap: wrap;
@@ -100,7 +99,7 @@ b {
 }
 
 .p5jswork {
-    width: calc(45% - 20px); 
+    width: calc(45% - 20px);
     background: #ffebf5;
     border: 1px solid #ffdae7;
     border-radius: 15px;
@@ -109,7 +108,6 @@ b {
     text-align: center;
     transition: transform 0.3s ease;
     color: #6d4154;
-    
 }
 
 .p5jswork:hover {
@@ -117,8 +115,6 @@ b {
     box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* 
-.p5jswork div,  */
 .p5jswork iframe,
 .p5jswork canvas {
     border-radius: 10px;
@@ -126,7 +122,98 @@ b {
     height: 100%;
 }
 
-.p5jswork br {
-    margin-bottom: 10px;
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+/* ====== About Me Page ====== */
+#about-page {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1000px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #fff7fa;
+    border: 2px solid #6f4e56;
+}
+
+
+#about-page .about-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
+#about-page .about-container img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+#about-page .about-text {
+    color: #6d4154;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+
+#about-page .aboutme {
+    font-size: 2.5rem;
+    color: #6d4154;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+    animation: float 2.5s ease-in-out infinite alternate;
+}
+
+#about-page .aboutme:hover {
+    color: pink;
+    transform: scale(1.2);
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+#about-page h3 {
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    color: pink;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 20px 0;
+    animation: bounce 2s ease-in-out infinite alternate;
+}
+
+
+#about-page .linkstyle {
+    color: pink;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
     display: block;
+    text-align: center;
+}
+
+#about-page .linkstyle:hover {
+    text-decoration: underline;
+    color: #905163;
+    transform: scale(1.2);
 }
