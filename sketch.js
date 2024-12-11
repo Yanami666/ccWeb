@@ -34,24 +34,24 @@ let inputShown;
 
 // Preload all the pictures
 function preload() {
-  p5st1 = loadImage('p5st1.jpg');
-  p5st2 = loadImage('p5st2.jpg');
-  p5st3 = loadImage('p5st3.jpg');
-  door = loadImage('door.png');
-  bench = loadImage('bench.png');
-  plant = loadImage('plant.png');
-  dresser = loadImage('dresser.png');
-  rug = loadImage('rug.png');
-  pic1 = loadImage('pic1.png'); 
-  pic2 = loadImage('pic2.png'); 
-  light = loadImage('light.png');
-  mirror = loadImage('mirror.png'); 
-  box = loadImage('box.png'); 
-  gameditu = loadImage('gameditu.jpg');
-  key1 = loadImage('Key1.jpg');
-  hammer1 = loadImage('Hammer1.jpg');
-  passwdoor = loadImage('passwdoor.jpg');
-  endGrayImage = loadImage("EndGray.jpg"); 
+  p5st1 = loadImage('image/p5st1.jpg');
+  p5st2 = loadImage('image/p5st2.jpg');
+  p5st3 = loadImage('image/p5st3.jpg');
+  door = loadImage('image/door.png');
+  bench = loadImage('image/bench.png');
+  plant = loadImage('image/plant.png');
+  dresser = loadImage('image/dresser.png');
+  rug = loadImage('image/rug.png');
+  pic1 = loadImage('image/pic1.png'); 
+  pic2 = loadImage('image/pic2.png'); 
+  light = loadImage('image/light.png');
+  mirror = loadImage('image/mirror.png'); 
+  box = loadImage('image/box.png'); 
+  gameditu = loadImage('image/gameditu.jpg');
+  key1 = loadImage('image/Key1.jpg');
+  hammer1 = loadImage('image/Hammer1.jpg');
+  passwdoor = loadImage('image/passwdoor.jpg');
+  endGrayImage = loadImage("image/EndGray.jpg"); 
 }
 
 //set up password
