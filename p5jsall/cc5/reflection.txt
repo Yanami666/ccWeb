@@ -1,0 +1,5 @@
+Ella reflection
+
+Actually for this assignment what I do is to make some changes from the class code activity,(because I really like the stuff we made on class). For design my final outcome, I add some animation on it, and change the circle into rectangle. In order to make this animation, I add timeoffset and changing the map function, let it contain sin function.
+
+I guess my optical illusion can't really depolyed in real life other than just made it as a visual effect.I guess it can be incorporated into a browser extension(? NOT something wearable.

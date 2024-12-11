@@ -1,0 +1,4 @@
+Process:
+I first made the changing backgound by mouse pressing. And then I begin to test the number of eye value.Then I draw the face. After I draw the face, I use if() to make conditions of mouse pressing with eye changing location. After these all, I begin to play with space changing how face is size changing(it is a mess...).
+
+I have discovered the use of variables in the eye "ellipse", like how to change the location of eye. Also how to use "if" for different condition (it is pretty similar to C Sharp).

@@ -1,0 +1,24 @@
+This is my data portrait of how long I use my Ipad in minute. To be more specific I track the time of me using different types of software.(Figure out that the most time I am playing games or using procreate:)
+
+My instruction of using the data: white color is the overall use time; lightblue color is the time of me playing games; pink is the color reflect usage of creativity/social media software; red is the color of other, software like translator. From left to right is the change of date.
+
+For my degin process, at first I was thinking making fancy stuffs like animation of Ipad blablabla, Later I change my idea and decide to make a simple chart. It took me some time to figure out how to make the animation(timer stuff). So the use is shown by the bars, at first I was confused by what are the rest white stuff, it is actually when my ipad is opened byuut doing nothing.
+my number list:
+
+//the time I played my ipad from 10.8-10.15;
+  const timeIPlayedMyIpadData = [371,430,221,176,217,216,147,599];
+  
+//data of the category of software I use
+//(game, creativity/social media, other)
+  const softwareUseData = 
+      [179, 170, 6],
+      [152, 192, 36],
+      [80, 32, 52],
+      [79, 77, 5],
+      [168, 0.95, 0.15],
+      [184, 14, 0.03],
+      [92, 13, 0.7],
+      [425, 67, 26],
+For this assignment I learned how to use the array[]fuction (I love it). With the combination of using for()and array[] makes my life easier.
+
+I believe the lost is the visual effect of not showing clear data number, I need to show a scale of how am I measuring them.
